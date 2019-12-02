@@ -1,0 +1,29 @@
+/*@import"./header";
+
+$colors: (
+    primary:#4567af
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+body{
+    background-color: rgba(color(primary), 0.4);
+}*/
+.flex-parent{
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    /*flex-direction: column;*/
+}
+.flex-child{
+    height: 90vh;
+    background-color: red;
+    margin: 10px;
+    flex-grow: 1;
+}
+#flex-mommy{
+    flex-grow: 1;
+    justify-content: space-around;
+}
