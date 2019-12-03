@@ -1,2 +1,2 @@
-.flex-parent{height:100vh;background-color:blue;display:-webkit-box;display:-ms-flexbox;display:flex}.flex-child{height:90vh;background-color:red;margin:10px;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}#flex-grow{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-pack:distribute;justify-content:space-around}
+html{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box}.flex-parent{height:100vh;background-color:darkblue;display:-webkit-box;display:-ms-flexbox;display:flex}.flex-child{height:90vh;background-color:red;margin:10 px;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}#flex-mommy{-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;-ms-flex-pack:distribute;justify-content:space-around}
 /*# sourceMappingURL=style.min.css.map */
