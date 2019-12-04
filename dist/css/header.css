@@ -1,4 +1,10 @@
-.header {
-  background-color: purple;
+.flex-mommy {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  font-size: 40;
 }
 /*# sourceMappingURL=header.css.map */
