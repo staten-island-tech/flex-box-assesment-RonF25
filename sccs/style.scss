@@ -12,26 +12,31 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 62.5%;
     }
 .flex-parent{
     height: 100vh;
-    background-color: darkblue;
+    background-color: $colors;
     display: flex;
     /*flex-direction: column;*/
 }
 .flex-child{
     height: 90vh;
     background-color: red;
-    margin: 10px;
+    margin: 1rem;
     flex-grow: 1;
     text-align: center;
     font-size: 40;
-    
-}
+    }
 #flex-mommy{
     
 }
-@import"./flex mommy";
+#NYC {
+height: 11vh;
+}
+@import"./_header";
 $colors: (
-primary: #4567af
+primary: #1A237E
 );
+@function color($color-name){
+    @return map-get($colors, $color-name);
