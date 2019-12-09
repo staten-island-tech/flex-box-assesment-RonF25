@@ -7,6 +7,13 @@ $colors: (
 @function color($color-name){
     @return map-get($colors, $color-name);
 }*/
+@import"./_header.scss";
+$colors: (
+primary: #1A237E
+);
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
 
 html {
     margin: 0;
@@ -16,9 +23,9 @@ html {
     }
 .flex-parent{
     height: 100vh;
-    background-color: $colors;
+    background-color: color(primary);
     display: flex;
-    /*flex-direction: column;*/
+    flex-direction: row;
 }
 .flex-child{
     height: 90vh;
@@ -27,16 +34,43 @@ html {
     flex-grow: 1;
     text-align: center;
     font-size: 40;
+    align-items: center;
+    justify-content: space-around;
     }
 #flex-mommy{
     
 }
-#NYC {
-height: 11vh;
+.flex-parent-2{
+    height: 100vh;
+    background-color: color(primary);
+    display: flex;
+    flex-direction: row;
 }
-@import"./_header";
-$colors: (
-primary: #1A237E
-);
-@function color($color-name){
-    @return map-get($colors, $color-name);
+.flex-child{
+    height: 90vh;
+    background-color: red;
+    margin: 1rem;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 40;
+    align-items: center;
+    justify-content: space-around;
+    }
+    #flex-mommy{
+        flex-grow: 1;
+        justify-content: space-around;
+        text-align: center;
+        font-size: 40;
+    }
+#NYC {
+height: 70vh;
+}
+#SI{
+height: 30vh;
+}
+#BR{
+height: 30vh;
+}
+#MAN{
+height: 30vh;
+}
