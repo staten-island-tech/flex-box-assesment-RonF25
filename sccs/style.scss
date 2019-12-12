@@ -65,16 +65,23 @@ html {
         display: flex;
         flex-direction: row;
     }
+
+    .flex-parent-2 > img{
+        height: 100%;
+        width: 100%
+    }
+    
     .flex-child-2 {
-        height: 90vh;
+        height: 70vh;
         background-color: red;
-        margin: 1rem;
+        margin-right: 90rem;
         flex-grow: 1;
         text-align: center;
         font-size: 40;
         align-items: center;
         justify-content: space-around;
         z-index: 2;
+        display:flex ;   
     }
     .flex-mommy-2 {
         display: flex;
@@ -93,8 +100,8 @@ height: 30vh;
 height: 30vh;
 }
 #MAN-2 {
-    width: 90vw;
+    width: 97.75vw;
     font-size: 30vh;
     position: absolute;
-    z-index: 1;
+   z-index: 1;
 }
