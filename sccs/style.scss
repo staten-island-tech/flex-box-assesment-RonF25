@@ -29,7 +29,7 @@ html {
 }
 .flex-child{
     height: 90vh;
-    background-color: #80DEEA;
+    background-color::#B2DFDB;
     margin: 1rem;
     flex-grow: 1;
     text-align: center;
@@ -38,13 +38,18 @@ html {
     align-items: center;
     justify-content: space-around;
     }
-#flex-mommy{
-    
+    .flex-child:hover {
+        background-color: #80DEEA;
+        font-weight: bold;
+    }
+#flex-mommy:hover{
+    background-color: #80DEEA;
+    font-weight: bold;
 }
 
 .flex-child{
     height: 90vh;
-    background-color:#80DEEA;
+    background-color::#B2DFDB;
     margin: 1rem;
     flex-grow: 1;
     text-align: center;
@@ -76,7 +81,7 @@ html {
     
     .flex-child-2 {
         height: 70vh;
-        background-color: #80DEEA;
+        background-color:#B2DFDB ;
         margin-right: 90rem;
         flex-grow: 1;
         text-align: center;
@@ -86,6 +91,10 @@ html {
         justify-content: space-around;
         z-index: 2;
         display:flex ;   
+    }
+    .flex-child-2:hover{
+        background-color:#80DEEA;
+        font-weight: bold;
     }
     .flex-mommy-2 {
         display: flex;
