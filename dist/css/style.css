@@ -79,6 +79,13 @@ html {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #flex-mommy {
@@ -147,15 +154,15 @@ html {
 }
 
 #SI {
-  height: 30vh;
+  height: 20vh;
 }
 
 #BR {
-  height: 30vh;
+  height: 20vh;
 }
 
 #MAN {
-  height: 30vh;
+  height: 20vh;
 }
 
 #MAN-2 {
