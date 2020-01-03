@@ -55,12 +55,12 @@ html {
 }
 
 .flex-child:hover {
-  background-color: #80DEEA;
+  background-color: white;
   font-weight: bold;
 }
 
 #flex-mommy:hover {
-  background-color: #80DEEA;
+  background-color: white;
   font-weight: bold;
 }
 
@@ -132,7 +132,7 @@ html {
 }
 
 .flex-child-2:hover {
-  background-color: #80DEEA;
+  background-color: white;
   font-weight: bold;
 }
 
